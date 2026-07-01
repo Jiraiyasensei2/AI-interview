@@ -12,7 +12,7 @@ EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
 ALLOWED_ORIGINS = [
     "http://localhost:5173",  # Vite dev server default
     "http://127.0.0.1:5173",
-    "https://ai-interview-two-ivory.vercel.app/"
+    "https://ai-interview-two-ivory.vercel.app"  # Vercel deployment
 ]
 
 # Curated skills taxonomy used for keyword-based skill extraction.
