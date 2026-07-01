@@ -9,11 +9,12 @@ Central configuration for HireLens-AI backend.
 EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
 
 # CORS origins allowed to call the API (add your deployed frontend URL here too).
-ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # Vite dev server default
-    "http://127.0.0.1:5173",
-    "https://ai-interview-two-ivory.vercel.app",
-]
+import os
+
+ALLOWED_ORIGINS = os.getenv(
+    "ALLOWED_ORIGINS",
+    "http://localhost:5173,http://127.0.0.1:5173,https://ai-interview-two-ivory.vercel.app"
+).split(",")
 
 # Curated skills taxonomy used for keyword-based skill extraction.
 # This runs alongside the embedding similarity score so the app can show
