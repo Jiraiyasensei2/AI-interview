@@ -1,4 +1,4 @@
-# ResumeSync
+# HireLens
 
 Embedding-based resume ↔ job description matcher with an interpretable skill-gap breakdown.
 
