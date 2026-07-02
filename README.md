@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # HireLens-AI
+=======
+# HireLens
+>>>>>>> 52a45104ce3f29b1a069550c2f9bf51b3f5e5fa9
 
 Embedding-based resume ↔ job description matcher with an interpretable skill-gap breakdown.
 
